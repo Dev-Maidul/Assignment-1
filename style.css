@@ -428,5 +428,33 @@ input[type="email"] {
   text-align: left;
 }
 button.donationb.sb {
-    margin-left: -6px;
+  margin-left: -6px;
+}
+/* Footer section style */
+footer {
+  width: 1600px;
+  height: 226px;
+  text-align: center;
+  margin: 80px 0px;
+  background: rgb(255, 255, 255);
+}
+.footerhr{
+    max-width: 1280px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+a.fimage {
+    margin-left: 16px;
+}
+.footer-image {
+    margin-left: -402px;
+    
+}
+h2.common-title1.text-center {
+    margin-left: -280px;
+}
+.footer-image {
+    margin-left: -324px;
+    margin-top: -4px;
 }
