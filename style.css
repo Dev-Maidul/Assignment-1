@@ -7,21 +7,37 @@
   margin: 0;
   padding: 0;
 }
+
 /* Shared style */
-.left{
-    margin-left: 100px;
+.common-title3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.common-des2 {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.left {
+  margin-left: 100px;
 }
 body {
-  /* width: 1600px; */
+  width: 1600px;
+}
+.website-container {
+  width: 1280px;
+  margin: 0 auto;
 }
 .pading {
   padding: 10px;
 }
-.width {
-  width: 1280px;
-  margin: 0 auto;
-  text-align: center;
-}
+
 .common-title1 {
   font-size: 32px;
   text-align: left;
@@ -34,6 +50,16 @@ body {
   line-height: 67px;
   letter-spacing: 0%;
   text-align: left;
+}
+.common-des1 {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 24px;
 }
 .btn1 {
   color: rgb(0, 106, 80);
@@ -75,7 +101,6 @@ nav {
   padding: 20px;
 }
 .banner {
-  width: 1280px;
   height: 560px;
   display: flex;
   flex-direction: row;
@@ -98,12 +123,12 @@ nav {
   text-align: left;
 }
 /* Piller section style */
-.piller-container{
-    display: flex;
-    gap: 60;
-    padding: 24px;
-    justify-content: center;
-    width: 1280px;
+.piller-container {
+  display: flex;
+  gap: 60;
+  padding: 24px;
+  justify-content: center;
+  width: 1280px;
 }
 .piller {
   color: rgb(14, 14, 14);
@@ -113,8 +138,8 @@ nav {
   line-height: 48px;
   letter-spacing: 0%;
   text-align: left;
-  gap: 40px;
-  width: 1280px;
+  gap: 24px;
+  margin: 30px;
 }
 .box1 {
   box-sizing: border-box;
@@ -122,9 +147,7 @@ nav {
   border-radius: 16px;
   background: rgb(255, 255, 255);
   text-align: justify;
-  padding: 30px;
-  
-  
+  padding: 20px;
 }
 .box1 h4 {
   color: rgba(14, 14, 14, 0.8);
@@ -143,4 +166,80 @@ nav {
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
+}
+/* Vision section */
+.card-container {
+  display: flex;
+  gap: 30;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.card1 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+  padding: 30px;
+}
+.card-btn {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+  border: none;
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+}
+.card2 {
+  background: rgb(198, 228, 214);
+  margin-left: 35px;
+}
+.card-btn2 {
+  background: rgb(9, 161, 92);
+  margin-top: 10px;
+}
+.card3 {
+  background: rgb(247, 235, 207);
+  margin-left: 35px;
+}
+.card-btn3 {
+  background: rgb(255, 194, 57);
+  margin-top: 10px;
+}
+/* Qation section style */
+.quation {
+  background-image: url("./assets/quote-bg.png");
+  background-repeat: no-repeat;
+  height: 206px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+ 
+}
+p.common-des2 {
+    margin-top: 35px;
+    margin-left: 10px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+h6.yunus {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 10px;
+}
+p.p2.yunus {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 10px;
+    text-align: left;
 }
